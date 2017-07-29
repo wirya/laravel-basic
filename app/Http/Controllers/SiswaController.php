@@ -14,7 +14,7 @@ class SiswaController extends Controller
     public function index()
     {
         //
-        $data=["nama"=>"Kadek","alamat"=>"Yogya"];
+        $data=["nama"=>"wirya","alamat"=>"Yogya"];
         return view('siswa.index')->with($data);
     }
 

@@ -1,7 +1,6 @@
 @extends('layout.mylayout')
-
 @section('menu')
-        @include('layout.menu')
+        @include('layout.menu2')
 @endsection
 
 @section ('content')

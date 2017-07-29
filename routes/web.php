@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('siswa', 'SiswaController');git remote add origin https://github.com/wirya/laravel-basic.git
+Route::resource('siswa', 'SiswaController');
+Route::get('/guru', 'GuruController@index');
